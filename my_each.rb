@@ -3,6 +3,6 @@ def my_each(arg)
   while i != arg.length 
     yield(arg)
     i += 1
-    arg[0]
+    puts arg[i]
   end
 end
