@@ -6,7 +6,5 @@ def my_each(arg)
   end
 end
 
-my_each(words) do |word|
-  puts word
-end
-end
+my_each(words) { |word|
+  puts word}
